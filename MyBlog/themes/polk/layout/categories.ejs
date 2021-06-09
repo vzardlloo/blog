@@ -1,0 +1,19 @@
+<%- partial('_partial/header') %>
+<section class="archive">
+    <% if (site.categories.length){ %>
+        <h1 class="page-type-title"><%= __('categories') %></h1>
+        <!-- <%- list_categories({show_count: theme.show_count}) %> -->
+        <ul class="category-list">
+            <% site.categories.sort('name').each(function(item){ %>
+                <% if(item.posts.length){ %>
+                    <a class="category-list-link" href="<%- config.root %><%- item.path %>" title="<%= item.name %>">
+                        <li class="category-list-item">
+                            <%= item.name %><i><%= item.posts.length %></i>
+                        </li>
+                    </a>
+                <% } %>
+            <% }); %>
+        </ul>
+    <% } %>
+</section>
+<%- partial('_partial/footer') %>
