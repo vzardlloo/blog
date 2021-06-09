@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.deploy_git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/ayer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/even" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/next" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/polarbear" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/polk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/themes/yinwang" vcs="Git" />
+  </component>
+</project>

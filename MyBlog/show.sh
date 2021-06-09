@@ -1,0 +1,3 @@
+hexo g
+
+hexo s
